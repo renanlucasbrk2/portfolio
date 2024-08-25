@@ -42,16 +42,15 @@ section {
     cursor: default;
 }
 
-.navbar{
+.navbar a {
     font-size: 2rem;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin-left: 1.5rem;
     font-weight: 700;
-    padding: 0px 20px;
 }
 
 .navbar a:hover
-.navbar a:active {
+.navbar a.active {
     color: var(--text-color);
 }
 
