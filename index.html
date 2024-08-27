@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+        <script src="./src/main.js" defer></script>
 </head>
 
 <body>
@@ -34,11 +36,8 @@
         <div class="home-content">
             <h3>Olá, Eu sou o</h3>
             <h1>Renan</h1>
-            <h3> <span>Desenvolvedor Frontend</span> </h3>
-            <p>
-                Um desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais. Com habilidades em
-                JavaScript, HTML, CSS, ReactJS e um foco especial em UI/UX.
-            </p>
+            <h3><span>Desenvolvedor Frontend</span></h3>
+            <p class="home-about"><span class="animated">Um desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais.<br>Com habilidades em JavaScript, HTML, CSS, ReactJS e um foco especial em UI/UX.</span></p>
             <div class="social-media">
                 <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
@@ -49,14 +48,17 @@
         </div>
 
         <div class="home-img">
-            <img src="/assets/img.png" alt="">
+            <img src="/assets/img-removebg-preview.png" alt="">
         </div>
 
     </section>
     <!-- /Home Section-->
 
-
-    <script src="/main.js"></script>
+<section class="wreapper">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</section>
 </body>
 
 </html>
